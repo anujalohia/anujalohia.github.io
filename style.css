@@ -1,0 +1,119 @@
+ body  {
+    background-image: url("assets/img/galaxy.png");
+    background-color: #cccccc;
+ }
+#first{
+    color:white;
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+
+  }
+#the{
+    position: absolute;
+    left: 590px;
+    top: 220px;
+}
+#inf{
+    position: absolute;
+    left: 565px;
+    top: 270px;
+}
+#st{
+    position: absolute;
+    left: 570px;
+    top: 320px;
+}
+
+#blue{
+    position: absolute;
+    left:600px;
+    top: 480px;
+
+}
+#red{
+    position: absolute;
+    left:600px;
+    top: 120px;
+
+}
+#yellow{
+    position: absolute;
+    left:415px;
+    top: 400px;
+
+}
+#green{
+    position: absolute;
+    left:770px;
+    top: 200px;
+}
+#orange{
+    position: absolute;
+    left:415px;
+    top: 200px;
+}
+#purp{
+    position: absolute;
+    left:770px;
+    top: 400px;
+}
+ #spacelink{
+    position: absolute;
+    left:600px;
+    top: 650px;
+
+}
+#timelink{
+    position: absolute;
+    left:700px;
+    top: 650px;
+
+}
+#reallink{
+    position: absolute;
+    left:800px;
+    top: 650px;
+}
+#mindlink{
+    position: absolute;
+    left:500px;
+    top: 650px;
+
+}
+#powerlink{
+    position: absolute;
+    left:400px;
+    top: 650px;
+
+}
+#soullink{
+    position: absolute;
+    left:300px;
+    top: 650px;
+
+}
+
+#blue:hover{
+    filter: brightness(155%);
+    transform:scale(1.25);
+}
+#red:hover{
+    filter: brightness(155%);
+    transform:scale(1.25);
+}
+#green:hover{
+    filter: brightness(155%);
+    transform:scale(1.25);
+}
+#yellow:hover{
+    filter: brightness(155%);
+    transform:scale(1.25);
+}
+#orange:hover{
+    filter: brightness(155%);
+    transform:scale(1.25);
+}
+#purp:hover{
+    filter: brightness(155%);
+    transform:scale(1.25);
+}

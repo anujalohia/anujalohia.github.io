@@ -1,0 +1,114 @@
+body  {
+    background-color:#121212;
+ }
+#home-button{
+    color:white;
+    font-family: 'Roboto Slab';
+    font-size: 30px;
+    position: absolute;
+    right: 100px;
+    text-decoration:none;
+}
+a:link {
+    text-decoration: none;
+  }
+a:visited{
+    color:white;
+}
+a:hover{
+    color:white;
+    text-decoration:underline;
+}
+ #title{
+     color:white;
+     font-family: 'Roboto Slab';
+     font-size: 55px;
+     position: absolute;
+     left: 420px;
+     top: 50px;
+ }
+ #ok{
+    border-radius: 50%;
+    width: 20%;
+    height:250px;
+    position: absolute;
+    left: 500px;
+    top: 325px;
+    border:1px solid white;
+
+ }
+ #powers-title{
+    color:white;
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    position: relative;
+    left: 7px;
+    top: -40px;
+
+ }
+ #powers{
+    width: 325px;
+    height: 420px;
+    position: absolute;
+    left: 85px;
+    top: 250px;
+    border: 3px solid #BB86FC;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+
+ }
+ #powers-text{
+    color:white;
+    font-family: 'Halant';
+    font-size: 16px;
+    position: relative;
+    top:-45px;
+
+ }
+
+ #history-title{
+    color:white;
+    font-family: 'Roboto Slab';
+    font-size: 40px;
+    position: relative;
+    left: 7px;
+    top: -40px;
+
+ }
+ #history{
+    width: 325px;
+    height: 420px;
+    position: absolute;
+    left: 830px;
+    top: 250px;
+    border: 3px solid #BB86FC;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right:10px;
+ }
+ #history-text{
+    color:white;
+    font-family: 'Halant';
+    font-size: 16px;
+    position: relative;
+    top:-45px;
+
+ }
+@keyframes spin{
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+ #ok{
+    animation-name: spin;
+    animation-duration:10s;
+    animation-timing-function: linear;
+    animation-delay:0s;
+    animation-iteration-count: infinite;
+
+ }
